@@ -1471,3 +1471,24 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.09.29-19.30.09:768][440]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEF5AD01_1539876974
 [2023.09.29-19.30.09:768][440]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEF5AD01_1504218973
 [2023.09.29-19.30.09:768][440]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEF5AD01_1318657968
+[2023.09.29-19.32.08:155][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.09.29-19.32.08:156][827]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level_0' took 0.009
+[2023.09.29-19.32.08:157][827]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DAssett/Arch_Mat] ([1] browsable assets)...
+[2023.09.29-19.32.08:226][827]OBJ SavePackage:     Rendered thumbnail for [Material /Game/2DAssett/Arch_Mat.Arch_Mat]
+[2023.09.29-19.32.08:226][827]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DAssett/Arch_Mat]
+[2023.09.29-19.32.08:226][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DAssett/Arch_Mat" FILE="D:/Unreal Projects/JameGam_2023/Saved/Autosaves/Game/2DAssett/Arch_Mat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2023.09.29-19.32.08:227][827]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2DAssett/Arch_Mat_Auto2
+[2023.09.29-19.32.08:227][827]LogSavePackage: Moving 'D:/Unreal Projects/JameGam_2023/Saved/Arch_Mat_Auto2ED1733C94485B72E48A6E1BB08C2347F.tmp' to 'D:/Unreal Projects/JameGam_2023/Saved/Autosaves/Game/2DAssett/Arch_Mat_Auto2.uasset'
+[2023.09.29-19.32.08:228][827]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DAssett/Basement_Door_Mat] ([1] browsable assets)...
+[2023.09.29-19.32.08:249][827]OBJ SavePackage:     Rendered thumbnail for [Material /Game/2DAssett/Basement_Door_Mat.Basement_Door_Mat]
+[2023.09.29-19.32.08:249][827]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DAssett/Basement_Door_Mat]
+[2023.09.29-19.32.08:249][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DAssett/Basement_Door_Mat" FILE="D:/Unreal Projects/JameGam_2023/Saved/Autosaves/Game/2DAssett/Basement_Door_Mat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2023.09.29-19.32.08:250][827]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2DAssett/Basement_Door_Mat_Auto2
+[2023.09.29-19.32.08:250][827]LogSavePackage: Moving 'D:/Unreal Projects/JameGam_2023/Saved/Basement_Door_Mat_Auto20300591D4F04DB58C3FACE8940DB3A3D.tmp' to 'D:/Unreal Projects/JameGam_2023/Saved/Autosaves/Game/2DAssett/Basement_Door_Mat_Auto2.uasset'
+[2023.09.29-19.32.08:295][827]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DAssett/Locker_Door_Mat] ([1] browsable assets)...
+[2023.09.29-19.32.08:314][827]OBJ SavePackage:     Rendered thumbnail for [Material /Game/2DAssett/Locker_Door_Mat.Locker_Door_Mat]
+[2023.09.29-19.32.08:314][827]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DAssett/Locker_Door_Mat]
+[2023.09.29-19.32.08:314][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DAssett/Locker_Door_Mat" FILE="D:/Unreal Projects/JameGam_2023/Saved/Autosaves/Game/2DAssett/Locker_Door_Mat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2023.09.29-19.32.08:315][827]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2DAssett/Locker_Door_Mat_Auto2
+[2023.09.29-19.32.08:315][827]LogSavePackage: Moving 'D:/Unreal Projects/JameGam_2023/Saved/Locker_Door_Mat_Auto2BADFA81D48DBD7967B8E538ABFC7052B.tmp' to 'D:/Unreal Projects/JameGam_2023/Saved/Autosaves/Game/2DAssett/Locker_Door_Mat_Auto2.uasset'
+[2023.09.29-19.32.08:316][827]LogFileHelpers: Auto-saving content packages took 0.160
