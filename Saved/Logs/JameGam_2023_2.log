@@ -1103,3 +1103,76 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.09.29-12.10.45:307][270]LogFileHelpers: Loading map 'Level_0' took 0.079
 [2023.09.29-12.10.45:307][270]LogSlate: Window 'Open Level' being destroyed
 [2023.09.29-12.12.49:253][741]LogDerivedDataCache: C:/Users/andre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:16.147 and deleted 0 files with total size 0 MiB. Scanned 8755 files in 8676 folders with total size 318 MiB.
+[2023.09.29-12.34.04:694][ 45]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Altoparlanti (Realtek(R) Audio), InstanceID=1
+[2023.09.29-12.34.04:915][ 45]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=12688
+[2023.09.29-12.34.05:250][ 46]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{f57231c4-082e-4e75-8f0a-c1b7d7c58e23}, Name=Altoparlanti (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=123.84
+[2023.09.29-12.34.05:253][ 46]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.29-12.34.05:253][ 46]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.29-12.54.00:075][630]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Altoparlanti (HyperX Cloud Revolver S), InstanceID=1
+[2023.09.29-12.54.00:159][630]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=12688
+[2023.09.29-12.54.00:494][631]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{220a100e-8ff4-4e00-83c2-3f3366779732}, Name=Altoparlanti (HyperX Cloud Revolver S)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=33.30
+[2023.09.29-12.54.00:494][631]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.09.29-12.54.00:496][631]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.09.29-13.12.49:257][ 94]LogDerivedDataCache: C:/Users/andre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:16.151 and deleted 0 files with total size 0 MiB. Scanned 8755 files in 8676 folders with total size 318 MiB.
+[2023.09.29-13.59.43:333][996]LogSlate: Window 'Plugins' being destroyed
+[2023.09.29-13.59.43:342][996]LogSlate: Window 'Plugins' being destroyed
+[2023.09.29-13.59.43:342][996]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2023.09.29-14.12.50:201][447]LogDerivedDataCache: C:/Users/andre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:17.094 and deleted 0 files with total size 0 MiB. Scanned 8755 files in 8676 folders with total size 318 MiB.
+[2023.09.29-15.12.49:241][241]LogDerivedDataCache: C:/Users/andre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:16.133 and deleted 0 files with total size 0 MiB. Scanned 8755 files in 8676 folders with total size 318 MiB.
+[2023.09.29-16.12.50:214][ 41]LogDerivedDataCache: C:/Users/andre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:17.106 and deleted 0 files with total size 0 MiB. Scanned 8755 files in 8676 folders with total size 318 MiB.
+[2023.09.29-17.12.49:239][835]LogDerivedDataCache: C:/Users/andre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:16.129 and deleted 0 files with total size 0 MiB. Scanned 8755 files in 8676 folders with total size 318 MiB.
+[2023.09.29-17.30.15:678][132]AssetReimport: New page: Outstanding source content changes 21:30:15
+[2023.09.29-17.30.15:707][132]LogSlate: Took 0.001293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.09.29-17.30.15:756][133]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 D:/Unreal Projects/JameGam_2023/Content/2DAssett/Map_Layout.png)
+[2023.09.29-17.30.15:766][133]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.09.29-17.30.15:891][134]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.29-17.30.16:132][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DAssett/Map_Layout" FILE="D:/Unreal Projects/JameGam_2023/Content/2DAssett/Map_Layout.uasset" SILENT=true
+[2023.09.29-17.30.16:148][134]LogPackageLocalizationCache: Processed 44 localized package path(s) for 1 prioritized culture(s) in 0.013813 seconds
+[2023.09.29-17.30.16:161][134]LogSerialization: UsePackageTrailer: 'true'
+[2023.09.29-17.30.16:171][134]LogSavePackage: Moving output files for package: /Game/2DAssett/Map_Layout
+[2023.09.29-17.30.16:171][134]LogSavePackage: Moving 'D:/Unreal Projects/JameGam_2023/Saved/Map_Layout52C2E06D4F4A48CCB781539271ABFC29.tmp' to 'D:/Unreal Projects/JameGam_2023/Content/2DAssett/Map_Layout.uasset'
+[2023.09.29-17.30.16:232][134]LogFileHelpers: InternalPromptForCheckoutAndSave took 341 ms
+[2023.09.29-17.30.16:247][135]AssetCheck: New page: Asset Save: Map_Layout
+[2023.09.29-17.30.16:247][135]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2DAssett/Map_Layout.Map_Layout
+[2023.09.29-17.30.19:249][312]AssetReimport: Importing new asset /Game/2DAssett/Map_Layout.
+[2023.09.29-17.30.31:714][ 44]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.09.29-17.30.36:866][344]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.09.29-17.30.36:866][344]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.09.29-17.30.36:869][344]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_0
+[2023.09.29-17.30.36:887][344]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_0
+[2023.09.29-17.30.37:065][346]LogShaderCompilers: Display: ================================================
+[2023.09.29-17.30.37:065][346]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.09.29-17.30.37:065][346]LogShaderCompilers: Display: Total job queries 87, among them cache hits 2 (2.30%)
+[2023.09.29-17.30.37:065][346]LogShaderCompilers: Display: Tracking 81 distinct input hashes that result in 68 distinct outputs (83.95%)
+[2023.09.29-17.30.37:065][346]LogShaderCompilers: Display: RAM used: 0.74 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.09%
+[2023.09.29-17.30.37:065][346]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.09.29-17.30.37:065][346]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.09.29-17.30.37:065][346]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.09.29-17.30.37:065][346]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.09.29-17.30.37:065][346]LogShaderCompilers: Display: ================================================
+[2023.09.29-17.30.37:712][377]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.09.29-17.30.37:712][377]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.09.29-17.30.37:720][377]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEEEAD01_1938821735
+[2023.09.29-17.30.37:720][377]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEEEAD01_1938821735
+[2023.09.29-17.30.38:438][411]Cmd: DELETE
+[2023.09.29-17.30.38:438][411]Cmd: ACTOR DELETE
+[2023.09.29-17.30.38:450][411]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.09.29-17.30.38:482][411]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2023.09.29-17.30.38:488][411]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2023.09.29-17.30.39:362][459]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2023.09.29-17.30.39:362][459]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2023.09.29-17.30.39:362][459]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_1
+[2023.09.29-17.30.39:362][459]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_1
+[2023.09.29-17.30.39:894][490]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2023.09.29-17.30.39:894][490]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2023.09.29-17.30.39:895][490]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEEEAD01_1941002736
+[2023.09.29-17.30.39:895][490]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEEEAD01_1941002736
+[2023.09.29-17.34.56:745][682]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.09.29-17.34.56:746][682]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level_0' took 0.009
+[2023.09.29-17.34.56:748][682]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DAssett/Map_Layout_Mat] ([1] browsable assets)...
+[2023.09.29-17.34.56:778][682]OBJ SavePackage:     Rendered thumbnail for [Material /Game/2DAssett/Map_Layout_Mat.Map_Layout_Mat]
+[2023.09.29-17.34.56:778][682]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DAssett/Map_Layout_Mat]
+[2023.09.29-17.34.56:778][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DAssett/Map_Layout_Mat" FILE="D:/Unreal Projects/JameGam_2023/Saved/Autosaves/Game/2DAssett/Map_Layout_Mat_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.09.29-17.34.56:779][682]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2DAssett/Map_Layout_Mat_Auto1
+[2023.09.29-17.34.56:779][682]LogSavePackage: Moving 'D:/Unreal Projects/JameGam_2023/Saved/Map_Layout_Mat_Auto12C6D43874D5790F0099A239BD6E7AA82.tmp' to 'D:/Unreal Projects/JameGam_2023/Saved/Autosaves/Game/2DAssett/Map_Layout_Mat_Auto1.uasset'
+[2023.09.29-17.34.56:780][682]LogFileHelpers: Auto-saving content packages took 0.033
