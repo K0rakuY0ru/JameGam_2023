@@ -1309,3 +1309,186 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.09.29-17.48.53:177][402]AssetCheck: New page: Asset Save: StaticMeshActor_UAID_9C2DCD4CEDDEEFAD01_1379099913
 [2023.09.29-17.48.53:177][402]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEEFAD01_1379099913
 [2023.09.29-17.48.53:186][402]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2023.09.29-17.54.27:465][ 73]LogSlate: Window 'Open Level' being destroyed
+[2023.09.29-17.57.46:883][712]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.09.29-17.57.46:883][712]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.09.29-17.57.46:883][712]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_4
+[2023.09.29-17.57.46:883][712]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_4
+[2023.09.29-17.57.47:627][754]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.09.29-17.57.47:627][754]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.09.29-17.57.47:629][754]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEF0AD01_1421252091
+[2023.09.29-17.57.47:629][754]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEF0AD01_1421252091
+[2023.09.29-17.58.23:347][869]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.09.29-17.58.23:355][869]LogContentBrowser: Creating deferred item: NewFolder
+[2023.09.29-17.58.23:361][870]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.09.29-17.58.28:731][190]LogContentBrowser: Attempting asset rename: NewFolder -> InvisibleWall
+[2023.09.29-17.58.28:732][190]LogContentBrowser: End creating deferred item NewFolder
+[2023.09.29-17.58.31:741][349]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2023.09.29-17.58.31:747][349]LogContentBrowser: Creating deferred item: NewMaterial
+[2023.09.29-17.58.31:771][351]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2023.09.29-17.58.38:039][726]LogContentBrowser: Attempting asset rename: NewMaterial -> Invisible_Material
+[2023.09.29-17.58.38:041][726]LogContentBrowser: End creating deferred item NewMaterial
+[2023.09.29-17.58.38:946][778]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/InvisibleWall/Invisible_Material.Invisible_Material
+[2023.09.29-17.58.38:966][778]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.29-17.58.38:992][778]LogStaticMesh: Display: Building static mesh Sphere_inversenormals...
+[2023.09.29-17.58.39:007][778]LogStaticMesh: Built static mesh [0.02s] /Engine/EditorMeshes/AssetViewer/Sphere_inversenormals.Sphere_inversenormals
+[2023.09.29-17.58.39:053][778]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Floor_Mesh) ...
+[2023.09.29-17.58.39:071][778]LogStaticMesh: Display: Building static mesh Floor_Mesh...
+[2023.09.29-17.58.39:073][778]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/AssetViewer/Floor_Mesh.Floor_Mesh
+[2023.09.29-17.58.39:262][778]MaterialEditorStats: Texture samplers: 0/16
+[2023.09.29-17.58.39:263][778]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.09.29-17.58.39:263][778]MaterialEditorStats: Shader Count: 0
+[2023.09.29-17.58.39:303][778]LogSlate: Took 0.029607 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.09.29-17.58.39:310][778]LogViewport: Scene viewport resized to 292x387, mode Windowed.
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display: ================================================
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display: Total job queries 166, among them cache hits 5 (3.01%)
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display: Tracking 151 distinct input hashes that result in 100 distinct outputs (66.23%)
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display: RAM used: 1.17 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.14%
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display: Shaders Compiled: 70
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display: Jobs assigned 80, completed 70 (87.50%)
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display: Average time worker was idle: 239.13 s
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display: Time job spent in pending queue: average 0.59 s, longest 1.74 s
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display: Job execution time: average 0.66 s, max 1.64 s
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display: Job life time (pending + execution): average 1.31 s, max 2.16
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.91 s
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display: Jobs were issued in 80 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display: Average processing rate: 10.13 jobs/sec
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display: Total thread time: 30.75 s
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display: Total thread preprocess time: 2.35 s
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display: Percentage time preprocessing: 7.64%
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display: Effective parallelization: 4.45 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 0.66 sec, max 0.67 sec, min 0.66 sec)
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    2 times, average 0.66 sec, max 0.67 sec, min 0.66 sec)
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    2 times, average 0.64 sec, max 0.65 sec, min 0.64 sec)
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 0.64 sec, max 0.65 sec, min 0.64 sec)
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    2 times, average 0.61 sec, max 0.63 sec, min 0.60 sec)
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 5.55% of total time (compiled    5 times, average 0.34 sec, max 0.45 sec, min 0.26 sec)
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.29% of total time (compiled    3 times, average 0.54 sec, max 0.56 sec, min 0.53 sec)
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 4.87% of total time (compiled    3 times, average 0.50 sec, max 0.55 sec, min 0.44 sec)
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 4.31% of total time (compiled    2 times, average 0.66 sec, max 0.67 sec, min 0.66 sec)
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 4.30% of total time (compiled    2 times, average 0.66 sec, max 0.67 sec, min 0.66 sec)
+[2023.09.29-17.58.39:995][803]LogShaderCompilers: Display: ================================================
+[2023.09.29-17.58.40:766][849]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.09.29-17.58.40:766][849]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.09.29-17.58.40:766][849]MaterialEditorStats: Texture samplers: 2/16
+[2023.09.29-17.58.40:766][849]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.09.29-17.58.40:766][849]MaterialEditorStats: Shader Count: 4
+[2023.09.29-17.58.45:900][151]MaterialEditorStats: Texture samplers: 0/16
+[2023.09.29-17.58.45:900][151]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.09.29-17.58.45:900][151]MaterialEditorStats: Shader Count: 0
+[2023.09.29-17.58.45:937][153]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.09.29-17.58.45:937][153]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.09.29-17.58.45:937][153]MaterialEditorStats: Texture samplers: 2/16
+[2023.09.29-17.58.45:937][153]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.09.29-17.58.45:937][153]MaterialEditorStats: Shader Count: 4
+[2023.09.29-17.58.48:662][309]MaterialEditorStats: Texture samplers: 0/16
+[2023.09.29-17.58.48:662][309]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.09.29-17.58.48:662][309]MaterialEditorStats: Shader Count: 0
+[2023.09.29-17.58.49:219][338]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.09.29-17.58.49:219][338]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.09.29-17.58.49:219][338]MaterialEditorStats: Texture samplers: 2/16
+[2023.09.29-17.58.49:219][338]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.09.29-17.58.49:219][338]MaterialEditorStats: Shader Count: 4
+[2023.09.29-17.58.56:262][752]LogSlate: Window 'Color Picker' being destroyed
+[2023.09.29-17.58.58:155][864]MaterialEditorStats: Texture samplers: 0/16
+[2023.09.29-17.58.58:155][864]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.09.29-17.58.58:155][864]MaterialEditorStats: Shader Count: 0
+[2023.09.29-17.58.58:200][866]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.09.29-17.58.58:200][866]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.09.29-17.58.58:200][866]MaterialEditorStats: Texture samplers: 2/16
+[2023.09.29-17.58.58:200][866]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.09.29-17.58.58:200][866]MaterialEditorStats: Shader Count: 4
+[2023.09.29-17.58.59:357][935]MaterialEditorStats: Texture samplers: 0/16
+[2023.09.29-17.58.59:357][935]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.09.29-17.58.59:357][935]MaterialEditorStats: Shader Count: 0
+[2023.09.29-17.58.59:398][937]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.09.29-17.58.59:398][937]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.09.29-17.58.59:398][937]MaterialEditorStats: Texture samplers: 2/16
+[2023.09.29-17.58.59:398][937]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.09.29-17.58.59:398][937]MaterialEditorStats: Shader Count: 4
+[2023.09.29-17.59.01:768][ 72]LogMaterial: Warning: [AssetLog] /Engine/Transient.Invisible_Material (no disk path found): Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2023.09.29-17.59.01:773][ 72]MaterialEditorStats: Error: [SM6] (Node TextureSample) Texture Sample> Missing input texture
+[2023.09.29-17.59.05:269][274]LogMaterial: Warning: [AssetLog] /Engine/Transient.Invisible_Material (no disk path found): Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2023.09.29-17.59.19:092][ 77]LogMaterial: Warning: [AssetLog] /Engine/Transient.Invisible_Material (no disk path found): Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2023.09.29-17.59.21:014][191]MaterialEditorStats: Texture samplers: 0/16
+[2023.09.29-17.59.21:016][191]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.09.29-17.59.21:016][191]MaterialEditorStats: Shader Count: 0
+[2023.09.29-17.59.21:054][193]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.09.29-17.59.21:054][193]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.09.29-17.59.21:054][193]MaterialEditorStats: Texture samplers: 2/16
+[2023.09.29-17.59.21:054][193]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.09.29-17.59.21:054][193]MaterialEditorStats: Shader Count: 4
+[2023.09.29-17.59.26:302][507]LogMaterialEditor: Saving and Compiling material Invisible_Material
+[2023.09.29-17.59.29:149][507]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.09.29-17.59.29:837][507]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.09.29-17.59.29:844][507]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.29-17.59.30:758][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InvisibleWall/Invisible_Material" FILE="D:/Unreal Projects/JameGam_2023/Content/InvisibleWall/Invisible_Material.uasset" SILENT=true
+[2023.09.29-17.59.30:760][507]LogSavePackage: Moving output files for package: /Game/InvisibleWall/Invisible_Material
+[2023.09.29-17.59.30:760][507]LogSavePackage: Moving 'D:/Unreal Projects/JameGam_2023/Saved/Invisible_MaterialFA4C876D4AC8F9BFFEB3B3BD9C8492BE.tmp' to 'D:/Unreal Projects/JameGam_2023/Content/InvisibleWall/Invisible_Material.uasset'
+[2023.09.29-17.59.30:767][507]LogFileHelpers: InternalPromptForCheckoutAndSave took 923 ms (total: 2.23 sec)
+[2023.09.29-17.59.30:769][507]AssetCheck: New page: Asset Save: Invisible_Material
+[2023.09.29-17.59.30:769][507]LogContentValidation: Display: Validating /Script/Engine.Material /Game/InvisibleWall/Invisible_Material.Invisible_Material
+[2023.09.29-17.59.30:770][507]MaterialEditorStats: Base pass shader: 211 instructions
+[2023.09.29-17.59.30:770][507]MaterialEditorStats: Base pass vertex shader: 255 instructions
+[2023.09.29-17.59.30:770][507]MaterialEditorStats: MaxSampler: 258 instructions
+[2023.09.29-17.59.30:770][507]MaterialEditorStats: Texture samplers: 3/16
+[2023.09.29-17.59.30:770][507]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.09.29-17.59.30:770][507]MaterialEditorStats: Shader Count: 16
+[2023.09.29-17.59.57:098][ 78]MaterialEditorStats: Texture samplers: 0/16
+[2023.09.29-17.59.57:098][ 78]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.09.29-17.59.57:098][ 78]MaterialEditorStats: Shader Count: 0
+[2023.09.29-17.59.57:805][120]MaterialEditorStats: Base pass vertex shader: 279 instructions
+[2023.09.29-17.59.57:805][120]MaterialEditorStats: Texture samplers: 3/16
+[2023.09.29-17.59.57:805][120]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.09.29-17.59.57:805][120]MaterialEditorStats: Shader Count: 2
+[2023.09.29-18.00.01:688][352]MaterialEditorStats: Texture samplers: 0/16
+[2023.09.29-18.00.01:688][352]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.09.29-18.00.01:688][352]MaterialEditorStats: Shader Count: 0
+[2023.09.29-18.00.01:743][355]MaterialEditorStats: Base pass vertex shader: 279 instructions
+[2023.09.29-18.00.01:744][355]MaterialEditorStats: Texture samplers: 3/16
+[2023.09.29-18.00.01:744][355]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.09.29-18.00.01:744][355]MaterialEditorStats: Shader Count: 2
+[2023.09.29-18.00.02:938][423]MaterialEditorStats: Texture samplers: 0/16
+[2023.09.29-18.00.02:938][423]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.09.29-18.00.02:938][423]MaterialEditorStats: Shader Count: 0
+[2023.09.29-18.00.03:531][454]MaterialEditorStats: Base pass vertex shader: 279 instructions
+[2023.09.29-18.00.03:531][454]MaterialEditorStats: Texture samplers: 3/16
+[2023.09.29-18.00.03:531][454]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.09.29-18.00.03:531][454]MaterialEditorStats: Shader Count: 2
+[2023.09.29-18.00.07:484][685]LogMaterialEditor: Applying material Invisible_Material
+[2023.09.29-18.00.07:884][685]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.09.29-18.00.08:576][685]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2023.09.29-18.00.08:583][685]MaterialEditorStats: Texture samplers: 0/16
+[2023.09.29-18.00.08:583][685]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.09.29-18.00.08:583][685]MaterialEditorStats: Shader Count: 2
+[2023.09.29-18.00.08:630][688]MaterialEditorStats: Base pass vertex shader: 279 instructions
+[2023.09.29-18.00.08:630][688]MaterialEditorStats: Texture samplers: 3/16
+[2023.09.29-18.00.08:630][688]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.09.29-18.00.08:630][688]MaterialEditorStats: Shader Count: 4
+[2023.09.29-18.00.09:246][725]LogMaterialEditor: Saving and Compiling material Invisible_Material
+[2023.09.29-18.00.09:249][725]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.29-18.00.10:806][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InvisibleWall/Invisible_Material" FILE="D:/Unreal Projects/JameGam_2023/Content/InvisibleWall/Invisible_Material.uasset" SILENT=true
+[2023.09.29-18.00.10:807][725]LogSavePackage: Moving output files for package: /Game/InvisibleWall/Invisible_Material
+[2023.09.29-18.00.10:807][725]LogSavePackage: Moving 'D:/Unreal Projects/JameGam_2023/Saved/Invisible_MaterialE2ABE2BA483A342BDB26E2A100EA5C7E.tmp' to 'D:/Unreal Projects/JameGam_2023/Content/InvisibleWall/Invisible_Material.uasset'
+[2023.09.29-18.00.10:815][725]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.56 sec (total: 3.79 sec)
+[2023.09.29-18.00.10:819][725]AssetCheck: New page: Asset Save: Invisible_Material
+[2023.09.29-18.00.10:819][725]LogContentValidation: Display: Validating /Script/Engine.Material /Game/InvisibleWall/Invisible_Material.Invisible_Material
+[2023.09.29-18.00.10:820][725]MaterialEditorStats: Base pass shader: 172 instructions
+[2023.09.29-18.00.10:820][725]MaterialEditorStats: Base pass vertex shader: 279 instructions
+[2023.09.29-18.00.10:820][725]MaterialEditorStats: Texture samplers: 3/16
+[2023.09.29-18.00.10:820][725]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.09.29-18.00.10:820][725]MaterialEditorStats: Shader Count: 22
+[2023.09.29-18.00.11:853][785]LogSlate: Window 'Invisible_Material' being destroyed
+[2023.09.29-18.00.11:862][785]LogSlate: Window 'Invisible_Material' being destroyed
+[2023.09.29-18.00.11:871][785]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.09.29-18.00.11:871][785]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
