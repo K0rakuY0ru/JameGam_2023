@@ -1305,3 +1305,169 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.09.29-19.12.06:629][463]LogContentValidation: Display: Validating /Script/Engine.BlockingVolume /Game/Level_0.Level_0:PersistentLevel.BlockingVolume_UAID_9C2DCD4CEDDEF3AD01_1203988725
 [2023.09.29-19.12.06:629][463]LogContentValidation: Display: Validating /Script/Engine.BlockingVolume /Game/Level_0.Level_0:PersistentLevel.BlockingVolume_UAID_9C2DCD4CEDDEF2AD01_1710315533
 [2023.09.29-19.12.06:629][463]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level_0.Level_0
+[2023.09.29-19.22.06:805][548]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.09.29-19.22.06:806][548]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level_0' took 0.008
+[2023.09.29-19.22.06:806][548]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DAssett/Map_Layout_Mat] ([1] browsable assets)...
+[2023.09.29-19.22.06:835][548]OBJ SavePackage:     Rendered thumbnail for [Material /Game/2DAssett/Map_Layout_Mat.Map_Layout_Mat]
+[2023.09.29-19.22.06:835][548]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DAssett/Map_Layout_Mat]
+[2023.09.29-19.22.06:835][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DAssett/Map_Layout_Mat" FILE="D:/Unreal Projects/JameGam_2023/Saved/Autosaves/Game/2DAssett/Map_Layout_Mat_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.09.29-19.22.06:838][548]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2DAssett/Map_Layout_Mat_Auto1
+[2023.09.29-19.22.06:838][548]LogSavePackage: Moving 'D:/Unreal Projects/JameGam_2023/Saved/Map_Layout_Mat_Auto10A55FA1C455BE310C7A5A0ACEC359872.tmp' to 'D:/Unreal Projects/JameGam_2023/Saved/Autosaves/Game/2DAssett/Map_Layout_Mat_Auto1.uasset'
+[2023.09.29-19.22.06:838][548]LogFileHelpers: Auto-saving content packages took 0.032
+[2023.09.29-19.25.20:806][130]AssetReimport: New page: Outstanding source content changes 23:25:20
+[2023.09.29-19.25.20:806][130]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 D:/Unreal Projects/JameGam_2023/Content/2DAssett/Arch.png)
+[2023.09.29-19.25.20:808][130]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.09.29-19.25.20:811][130]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.29-19.25.21:010][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DAssett/Arch" FILE="D:/Unreal Projects/JameGam_2023/Content/2DAssett/Arch.uasset" SILENT=true
+[2023.09.29-19.25.21:017][130]LogSavePackage: Moving output files for package: /Game/2DAssett/Arch
+[2023.09.29-19.25.21:017][130]LogSavePackage: Moving 'D:/Unreal Projects/JameGam_2023/Saved/Arch7BDA2D304606FCFB1CDA89A958D96F45.tmp' to 'D:/Unreal Projects/JameGam_2023/Content/2DAssett/Arch.uasset'
+[2023.09.29-19.25.21:027][130]LogFileHelpers: InternalPromptForCheckoutAndSave took 216 ms (total: 424 ms)
+[2023.09.29-19.25.21:123][131]AssetCheck: New page: Asset Save: Arch
+[2023.09.29-19.25.21:123][131]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2DAssett/Arch.Arch
+[2023.09.29-19.25.24:129][140]AssetReimport: Importing new asset /Game/2DAssett/Arch.
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display: ================================================
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display: Total job queries 159, among them cache hits 12 (7.55%)
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display: Tracking 119 distinct input hashes that result in 97 distinct outputs (81.51%)
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display: RAM used: 0.96 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.12%
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display: Shaders Compiled: 4
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display: Jobs assigned 14, completed 4 (28.57%)
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display: Time job spent in pending queue: average 0.18 s, longest 0.58 s
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display: Job execution time: average 0.56 s, max 0.57 s
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display: Job life time (pending + execution): average 0.58 s, max 0.59
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.59 s
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display: Jobs were issued in 14 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display: Average processing rate: 6.83 jobs/sec
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display: Total thread time: 1.12 s
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display: Total thread preprocess time: 0.10 s
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display: Percentage time preprocessing: 9.09%
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display: Effective parallelization: 1.92 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display:         TShadowDepthPSPixelShadowDepth_NonPerspectiveCorrect (compiled    1 times, average 0.28 sec, max 0.28 sec, min 0.28 sec)
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display:            TShadowDepthPSPixelShadowDepth_PerspectiveCorrect (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 26.59% of total time (compiled    1 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display:         TShadowDepthPSPixelShadowDepth_NonPerspectiveCorrect - 24.58% of total time (compiled    1 times, average 0.28 sec, max 0.28 sec, min 0.28 sec)
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display:            TShadowDepthPSPixelShadowDepth_PerspectiveCorrect - 24.41% of total time (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display:                                                  FHitProxyPS - 24.41% of total time (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2023.09.29-19.25.39:663][644]LogShaderCompilers: Display: ================================================
+[2023.09.29-19.26.20:359][ 55]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.09.29-19.26.36:435][979]Cmd: TRANSACTION UNDO
+[2023.09.29-19.26.36:435][979]LogEditorTransaction: Undo Create Actors
+[2023.09.29-19.27.31:703][223]AssetReimport: New page: Outstanding source content changes 23:27:31
+[2023.09.29-19.27.31:704][223]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 D:/Unreal Projects/JameGam_2023/Content/2DAssett/Basement_Door.png)
+[2023.09.29-19.27.31:705][223]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.09.29-19.27.31:709][223]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.29-19.27.31:898][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DAssett/Basement_Door" FILE="D:/Unreal Projects/JameGam_2023/Content/2DAssett/Basement_Door.uasset" SILENT=true
+[2023.09.29-19.27.31:903][223]LogSavePackage: Moving output files for package: /Game/2DAssett/Basement_Door
+[2023.09.29-19.27.31:903][223]LogSavePackage: Moving 'D:/Unreal Projects/JameGam_2023/Saved/Basement_Door57186EE9475D2EA799E62FAE673016AB.tmp' to 'D:/Unreal Projects/JameGam_2023/Content/2DAssett/Basement_Door.uasset'
+[2023.09.29-19.27.31:910][223]LogFileHelpers: InternalPromptForCheckoutAndSave took 201 ms (total: 625 ms)
+[2023.09.29-19.27.31:997][224]AssetCheck: New page: Asset Save: Basement_Door
+[2023.09.29-19.27.31:998][224]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2DAssett/Basement_Door.Basement_Door
+[2023.09.29-19.27.35:000][233]AssetReimport: Importing new asset /Game/2DAssett/Basement_Door.
+[2023.09.29-19.27.48:031][345]AssetReimport: New page: Outstanding source content changes 23:27:48
+[2023.09.29-19.27.48:060][346]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 D:/Unreal Projects/JameGam_2023/Content/2DAssett/Locker_Door.png)
+[2023.09.29-19.27.48:062][346]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.09.29-19.27.48:064][346]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.29-19.27.48:265][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DAssett/Locker_Door" FILE="D:/Unreal Projects/JameGam_2023/Content/2DAssett/Locker_Door.uasset" SILENT=true
+[2023.09.29-19.27.48:271][346]LogSavePackage: Moving output files for package: /Game/2DAssett/Locker_Door
+[2023.09.29-19.27.48:271][346]LogSavePackage: Moving 'D:/Unreal Projects/JameGam_2023/Saved/Locker_Door3AD3C9BF4091409CE98DEAB7A4F152B8.tmp' to 'D:/Unreal Projects/JameGam_2023/Content/2DAssett/Locker_Door.uasset'
+[2023.09.29-19.27.48:378][346]LogFileHelpers: InternalPromptForCheckoutAndSave took 313 ms (total: 939 ms)
+[2023.09.29-19.27.48:435][347]AssetCheck: New page: Asset Save: Locker_Door
+[2023.09.29-19.27.48:435][347]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2DAssett/Locker_Door.Locker_Door
+[2023.09.29-19.27.51:388][518]AssetReimport: Importing new asset /Game/2DAssett/Locker_Door.
+[2023.09.29-19.28.05:774][369]Cmd: TRANSACTION UNDO
+[2023.09.29-19.28.05:774][369]LogEditorTransaction: Undo Move Elements
+[2023.09.29-19.28.10:249][613]Cmd: EDIT COPY
+[2023.09.29-19.28.10:749][643]Cmd: EDIT PASTE
+[2023.09.29-19.28.18:926][126]Cmd: DELETE
+[2023.09.29-19.28.18:926][126]Cmd: ACTOR DELETE
+[2023.09.29-19.28.18:928][126]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.09.29-19.28.18:939][126]LogWorldPartition: Actor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEF5AD01_1465776970 is unreachable without properly detaching object /Game/__ExternalActors__/Level_0/4/69/QDJ6LW45R40RF1HMU7ZG0B.PackageMetaData in its package
+[2023.09.29-19.28.18:940][126]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.09.29-19.28.18:941][126]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2023.09.29-19.28.18:953][126]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.09.29-19.28.20:545][220]Cmd: DELETE
+[2023.09.29-19.28.20:545][220]Cmd: ACTOR DELETE
+[2023.09.29-19.28.20:546][220]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.09.29-19.28.20:556][220]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2023.09.29-19.28.20:557][220]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2023.09.29-19.28.23:265][380]Cmd: EDIT COPY
+[2023.09.29-19.28.23:704][406]Cmd: EDIT PASTE
+[2023.09.29-19.28.36:417][150]Cmd: DELETE
+[2023.09.29-19.28.36:417][150]Cmd: ACTOR DELETE
+[2023.09.29-19.28.36:418][150]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.09.29-19.28.36:425][150]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2023.09.29-19.28.36:427][150]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2023.09.29-19.28.39:036][305]Cmd: EDIT COPY
+[2023.09.29-19.28.39:303][321]Cmd: EDIT PASTE
+[2023.09.29-19.28.42:181][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.09.29-19.28.43:432][490]LogSlate: Window 'Delete Assets' being destroyed
+[2023.09.29-19.28.43:457][490]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/2DAssett/LockedDoor.LockedDoor
+	Asset Type: Texture2D
+[2023.09.29-19.28.43:529][490]LogMaterial: Warning: [AssetLog] /Game/2DAssett/LockedDoor_Mat.LockedDoor_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2023.09.29-19.28.43:550][490]LogWorldPartition: Actor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEF5AD01_1475673971 is unreachable without properly detaching object /Game/__ExternalActors__/Level_0/2/UA/R2VC90OZ8GJOL6NLX83FKU.PackageMetaData in its package
+[2023.09.29-19.28.43:550][490]LogWorldPartition: Actor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEF5AD01_1371818969 is unreachable without properly detaching object /Game/__ExternalActors__/Level_0/0/YF/3F1JOXPEFAR1LM4PK2MJ76.PackageMetaData in its package
+[2023.09.29-19.28.43:550][490]LogWorldPartition: Actor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEF5AD01_1488620972 is unreachable without properly detaching object /Game/__ExternalActors__/Level_0/B/P5/AVGSLQYX4Y8KH5TWZIX61E.PackageMetaData in its package
+[2023.09.29-19.28.43:551][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.09.29-19.28.43:559][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.09.29-19.28.43:566][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.09.29-19.28.43:619][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.09.29-19.28.46:331][648]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.09.29-19.28.47:422][648]LogSlate: Window 'Delete Assets' being destroyed
+[2023.09.29-19.28.47:439][648]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2023.09.29-19.28.47:448][648]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.09.29-19.28.47:455][648]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display: ================================================
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display: Total job queries 236, among them cache hits 19 (8.05%)
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display: Tracking 189 distinct input hashes that result in 103 distinct outputs (54.50%)
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display: RAM used: 1.39 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.17%
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display: Shaders Compiled: 36
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display: Jobs assigned 46, completed 36 (78.26%)
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display: Average time worker was idle: 58.02 s
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display: Time job spent in pending queue: average 0.61 s, longest 1.67 s
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display: Job execution time: average 0.62 s, max 0.90 s
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display: Job life time (pending + execution): average 1.30 s, max 2.18
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.82 s
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display: Jobs were issued in 43 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display: Average processing rate: 12.76 jobs/sec
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display: Total thread time: 15.05 s
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display: Total thread preprocess time: 1.00 s
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display: Percentage time preprocessing: 6.64%
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display: Effective parallelization: 5.34 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 0.61 sec, max 0.61 sec, min 0.61 sec)
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 0.61 sec, max 0.61 sec, min 0.61 sec)
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    1 times, average 0.61 sec, max 0.61 sec, min 0.61 sec)
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.60 sec, max 0.60 sec, min 0.60 sec)
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    1 times, average 0.60 sec, max 0.60 sec, min 0.60 sec)
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap - 4.11% of total time (compiled    2 times, average 0.31 sec, max 0.33 sec, min 0.28 sec)
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 4.07% of total time (compiled    1 times, average 0.61 sec, max 0.61 sec, min 0.61 sec)
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 4.06% of total time (compiled    1 times, average 0.61 sec, max 0.61 sec, min 0.61 sec)
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy - 4.05% of total time (compiled    1 times, average 0.61 sec, max 0.61 sec, min 0.61 sec)
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 4.00% of total time (compiled    1 times, average 0.60 sec, max 0.60 sec, min 0.60 sec)
+[2023.09.29-19.29.10:503][986]LogShaderCompilers: Display: ================================================
+[2023.09.29-19.29.14:729][211]Cmd: EDIT COPY
+[2023.09.29-19.29.14:961][225]Cmd: EDIT PASTE
+[2023.09.29-19.30.09:698][440]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.29-19.30.09:752][440]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level_0/6/E0/V47DZTA6UBJNXAZ49QNSYN
+[2023.09.29-19.30.09:752][440]LogSavePackage: Moving 'D:/Unreal Projects/JameGam_2023/Saved/V47DZTA6UBJNXAZ49QNSYN9C1B0AB2463CA4E52B513FB313AA5589.tmp' to 'D:/Unreal Projects/JameGam_2023/Content/__ExternalActors__/Level_0/6/E0/V47DZTA6UBJNXAZ49QNSYN.uasset'
+[2023.09.29-19.30.09:753][440]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level_0/C/S6/J2BXO5FCSFR80K2J1I2041
+[2023.09.29-19.30.09:753][440]LogSavePackage: Moving 'D:/Unreal Projects/JameGam_2023/Saved/J2BXO5FCSFR80K2J1I20411F261C1C4D0464B6767EDE81B9C70716.tmp' to 'D:/Unreal Projects/JameGam_2023/Content/__ExternalActors__/Level_0/C/S6/J2BXO5FCSFR80K2J1I2041.uasset'
+[2023.09.29-19.30.09:754][440]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level_0/2/VS/XL82URBRFOLH5VW91NX5SK
+[2023.09.29-19.30.09:754][440]LogSavePackage: Moving 'D:/Unreal Projects/JameGam_2023/Saved/XL82URBRFOLH5VW91NX5SK7507B23541966EA992927C9B54A128E7.tmp' to 'D:/Unreal Projects/JameGam_2023/Content/__ExternalActors__/Level_0/2/VS/XL82URBRFOLH5VW91NX5SK.uasset'
+[2023.09.29-19.30.09:763][440]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 1.00 sec)
+[2023.09.29-19.30.09:768][440]AssetCheck: New page: Asset Save: multiple assets
+[2023.09.29-19.30.09:768][440]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEF5AD01_1539876974
+[2023.09.29-19.30.09:768][440]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEF5AD01_1504218973
+[2023.09.29-19.30.09:768][440]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEF5AD01_1318657968
