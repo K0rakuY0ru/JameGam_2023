@@ -1176,3 +1176,136 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.09.29-17.34.56:779][682]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2DAssett/Map_Layout_Mat_Auto1
 [2023.09.29-17.34.56:779][682]LogSavePackage: Moving 'D:/Unreal Projects/JameGam_2023/Saved/Map_Layout_Mat_Auto12C6D43874D5790F0099A239BD6E7AA82.tmp' to 'D:/Unreal Projects/JameGam_2023/Saved/Autosaves/Game/2DAssett/Map_Layout_Mat_Auto1.uasset'
 [2023.09.29-17.34.56:780][682]LogFileHelpers: Auto-saving content packages took 0.033
+[2023.09.29-17.38.48:469][ 18]Cmd: DELETE
+[2023.09.29-17.38.48:469][ 18]Cmd: ACTOR DELETE
+[2023.09.29-17.38.48:471][ 18]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.09.29-17.38.48:478][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.09.29-17.38.48:479][ 18]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.09.29-17.38.58:997][643]Cmd: TRANSACTION UNDO
+[2023.09.29-17.38.58:997][643]LogEditorTransaction: Undo Create Actors
+[2023.09.29-17.39.10:155][278]Cmd: TRANSACTION UNDO
+[2023.09.29-17.39.10:155][278]LogEditorTransaction: Undo Create Actors
+[2023.09.29-17.39.11:305][320]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2023.09.29-17.39.11:305][320]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2023.09.29-17.39.11:305][320]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_2
+[2023.09.29-17.39.11:305][320]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_2
+[2023.09.29-17.39.11:733][344]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2023.09.29-17.39.11:733][344]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2023.09.29-17.39.11:734][344]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEEFAD01_1379099913
+[2023.09.29-17.39.11:734][344]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEEFAD01_1379099913
+[2023.09.29-17.41.46:068][ 73]AssetReimport: New page: Outstanding source content changes 21:41:46
+[2023.09.29-17.41.46:072][ 73]LogEditorFactories: Performing atomic reimport of [D:/Unreal Projects/JameGam_2023/Content/2DAssett/Map_Layout.png]
+[2023.09.29-17.41.46:072][ 73]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/Unreal Projects/JameGam_2023/Content/2DAssett/Map_Layout.png)
+[2023.09.29-17.41.46:077][ 73]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.09.29-17.41.46:080][ 73]LogEditorFactories: -- imported successfully
+[2023.09.29-17.41.46:083][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.29-17.41.46:269][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DAssett/Map_Layout" FILE="D:/Unreal Projects/JameGam_2023/Content/2DAssett/Map_Layout.uasset" SILENT=true
+[2023.09.29-17.41.46:277][ 73]LogSavePackage: Moving output files for package: /Game/2DAssett/Map_Layout
+[2023.09.29-17.41.46:277][ 73]LogSavePackage: Moving 'D:/Unreal Projects/JameGam_2023/Saved/Map_LayoutBFBF41BB41DD4FF110C22FB71990A216.tmp' to 'D:/Unreal Projects/JameGam_2023/Content/2DAssett/Map_Layout.uasset'
+[2023.09.29-17.41.46:300][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave took 216 ms (total: 558 ms)
+[2023.09.29-17.41.46:395][ 74]AssetCheck: New page: Asset Save: Map_Layout
+[2023.09.29-17.41.46:395][ 74]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2DAssett/Map_Layout.Map_Layout
+[2023.09.29-17.41.49:398][ 83]AssetReimport: Reimported asset Map_Layout from D:/Unreal Projects/JameGam_2023/Content/2DAssett/Map_Layout.png.
+[2023.09.29-17.41.56:068][207]Cmd: TRANSACTION UNDO
+[2023.09.29-17.41.56:068][207]LogEditorTransaction: Undo Create Actors
+[2023.09.29-17.43.05:766][630]AssetReimport: New page: Outstanding source content changes 21:43:05
+[2023.09.29-17.43.05:767][630]LogEditorFactories: Performing atomic reimport of [D:/Unreal Projects/JameGam_2023/Content/2DAssett/Map_Layout.png]
+[2023.09.29-17.43.05:767][630]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/Unreal Projects/JameGam_2023/Content/2DAssett/Map_Layout.png)
+[2023.09.29-17.43.05:772][630]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.09.29-17.43.05:773][630]LogEditorFactories: -- imported successfully
+[2023.09.29-17.43.05:817][631]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.29-17.43.06:020][631]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DAssett/Map_Layout" FILE="D:/Unreal Projects/JameGam_2023/Content/2DAssett/Map_Layout.uasset" SILENT=true
+[2023.09.29-17.43.06:026][631]LogSavePackage: Moving output files for package: /Game/2DAssett/Map_Layout
+[2023.09.29-17.43.06:027][631]LogSavePackage: Moving 'D:/Unreal Projects/JameGam_2023/Saved/Map_LayoutA6ABEB044125C5A1395154BC327554E2.tmp' to 'D:/Unreal Projects/JameGam_2023/Content/2DAssett/Map_Layout.uasset'
+[2023.09.29-17.43.06:137][631]LogFileHelpers: InternalPromptForCheckoutAndSave took 319 ms (total: 878 ms)
+[2023.09.29-17.43.06:197][632]AssetCheck: New page: Asset Save: Map_Layout
+[2023.09.29-17.43.06:197][632]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2DAssett/Map_Layout.Map_Layout
+[2023.09.29-17.43.09:144][800]AssetReimport: Reimported asset Map_Layout from D:/Unreal Projects/JameGam_2023/Content/2DAssett/Map_Layout.png.
+[2023.09.29-17.44.34:692][217]AssetReimport: New page: Outstanding source content changes 21:44:34
+[2023.09.29-17.44.34:727][218]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 D:/Unreal Projects/JameGam_2023/Content/2DAssett/LockedDoor.png)
+[2023.09.29-17.44.34:727][218]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.09.29-17.44.34:739][218]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.29-17.44.34:942][218]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DAssett/LockedDoor" FILE="D:/Unreal Projects/JameGam_2023/Content/2DAssett/LockedDoor.uasset" SILENT=true
+[2023.09.29-17.44.34:944][218]LogSavePackage: Moving output files for package: /Game/2DAssett/LockedDoor
+[2023.09.29-17.44.34:944][218]LogSavePackage: Moving 'D:/Unreal Projects/JameGam_2023/Saved/LockedDoor8B5E35CE4E2BD84D1B7F1CBB3F5AD545.tmp' to 'D:/Unreal Projects/JameGam_2023/Content/2DAssett/LockedDoor.uasset'
+[2023.09.29-17.44.35:042][218]LogFileHelpers: InternalPromptForCheckoutAndSave took 303 ms (total: 1.18 sec)
+[2023.09.29-17.44.35:095][219]AssetCheck: New page: Asset Save: LockedDoor
+[2023.09.29-17.44.35:095][219]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/2DAssett/LockedDoor.LockedDoor
+[2023.09.29-17.44.38:048][388]AssetReimport: Importing new asset /Game/2DAssett/LockedDoor.
+[2023.09.29-17.44.42:112][626]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2023.09.29-17.44.42:113][626]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2023.09.29-17.44.42:113][626]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_3
+[2023.09.29-17.44.42:113][626]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_3
+[2023.09.29-17.44.42:770][663]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2023.09.29-17.44.42:770][663]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2023.09.29-17.44.42:780][663]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEEFAD01_1710136914
+[2023.09.29-17.44.42:780][663]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEEFAD01_1710136914
+[2023.09.29-17.44.46:234][868]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEEFAD01_1710136914.StaticMeshComponent0, from: Addition to navoctree)
+[2023.09.29-17.44.47:316][933]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEEFAD01_1710136914.StaticMeshComponent0, from: Remove from navoctree)
+[2023.09.29-17.45.40:339][ 53]LogShaderCompilers: Display: ================================================
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display: Total job queries 152, among them cache hits 3 (1.97%)
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display: Tracking 119 distinct input hashes that result in 98 distinct outputs (82.35%)
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display: RAM used: 0.97 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.12%
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display: Shaders Compiled: 38
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display: Jobs assigned 48, completed 38 (79.17%)
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display: Average time worker was idle: 235.94 s
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display: Time job spent in pending queue: average 0.50 s, longest 1.65 s
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display: Job execution time: average 0.68 s, max 1.64 s
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display: Job life time (pending + execution): average 1.29 s, max 2.16
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.32 s
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display: Jobs were issued in 48 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display: Average processing rate: 8.80 jobs/sec
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display: Total thread time: 16.44 s
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display: Total thread preprocess time: 1.42 s
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display: Percentage time preprocessing: 8.62%
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display: Effective parallelization: 3.81 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    1 times, average 0.67 sec, max 0.67 sec, min 0.67 sec)
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.66 sec, max 0.66 sec, min 0.66 sec)
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    1 times, average 0.65 sec, max 0.65 sec, min 0.65 sec)
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    1 times, average 0.65 sec, max 0.65 sec, min 0.65 sec)
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 0.63 sec, max 0.63 sec, min 0.63 sec)
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 6.51% of total time (compiled    2 times, average 0.54 sec, max 0.54 sec, min 0.53 sec)
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 6.01% of total time (compiled    2 times, average 0.49 sec, max 0.55 sec, min 0.44 sec)
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 5.01% of total time (compiled    3 times, average 0.27 sec, max 0.28 sec, min 0.26 sec)
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display:                                                 FLumenCardVS - 4.93% of total time (compiled    2 times, average 0.41 sec, max 0.42 sec, min 0.39 sec)
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 4.05% of total time (compiled    1 times, average 0.67 sec, max 0.67 sec, min 0.67 sec)
+[2023.09.29-17.45.40:340][ 53]LogShaderCompilers: Display: ================================================
+[2023.09.29-17.45.49:134][552]Cmd: MODE GRID=0
+[2023.09.29-17.46.07:127][623]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEEFAD01_1710136914.StaticMeshComponent0, from: Addition to navoctree)
+[2023.09.29-17.46.08:244][690]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEEFAD01_1710136914.StaticMeshComponent0, from: Remove from navoctree)
+[2023.09.29-17.46.09:774][779]Cmd: MODE ROTGRID=0
+[2023.09.29-17.46.10:652][831]Cmd: MODE SCALEGRID=0
+[2023.09.29-17.46.11:218][865]Cmd: MODE ROTGRID=1
+[2023.09.29-17.46.13:713][ 13]Cmd: TRANSACTION UNDO
+[2023.09.29-17.46.13:713][ 13]LogEditorTransaction: Undo Scale Elements
+[2023.09.29-17.48.12:875][105]Cmd: DELETE
+[2023.09.29-17.48.12:875][105]Cmd: ACTOR DELETE
+[2023.09.29-17.48.12:876][105]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.09.29-17.48.12:893][105]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.09.29-17.48.12:895][105]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2023.09.29-17.48.48:328][123]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.09.29-17.48.48:329][123]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level_0' took 0.006
+[2023.09.29-17.48.48:330][123]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DAssett/LockedDoor_Mat] ([1] browsable assets)...
+[2023.09.29-17.48.48:362][123]OBJ SavePackage:     Rendered thumbnail for [Material /Game/2DAssett/LockedDoor_Mat.LockedDoor_Mat]
+[2023.09.29-17.48.48:362][123]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DAssett/LockedDoor_Mat]
+[2023.09.29-17.48.48:362][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DAssett/LockedDoor_Mat" FILE="D:/Unreal Projects/JameGam_2023/Saved/Autosaves/Game/2DAssett/LockedDoor_Mat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2023.09.29-17.48.48:364][123]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/2DAssett/LockedDoor_Mat_Auto2
+[2023.09.29-17.48.48:364][123]LogSavePackage: Moving 'D:/Unreal Projects/JameGam_2023/Saved/LockedDoor_Mat_Auto2F71CEFC946DA864815736F86937A25E4.tmp' to 'D:/Unreal Projects/JameGam_2023/Saved/Autosaves/Game/2DAssett/LockedDoor_Mat_Auto2.uasset'
+[2023.09.29-17.48.48:364][123]LogFileHelpers: Auto-saving content packages took 0.034
+[2023.09.29-17.48.53:047][402]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.29-17.48.53:140][402]LogWorldPartition: Actor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEEFAD01_1710136914 is unreachable without properly detaching object /Game/__ExternalActors__/Level_0/D/OE/TKIW1WJSHYUF2UJGGLGZ1M.PackageMetaData in its package
+[2023.09.29-17.48.53:140][402]LogWorldPartition: Actor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEEEAD01_1941002736 is unreachable without properly detaching object /Game/__ExternalActors__/Level_0/3/AE/S5CMQPM171W3R91DHV7GRS.PackageMetaData in its package
+[2023.09.29-17.48.53:140][402]LogWorldPartition: Actor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEEEAD01_1938821735 is unreachable without properly detaching object /Game/__ExternalActors__/Level_0/2/RL/PE44YGWP39RYN0WHDYSK45.PackageMetaData in its package
+[2023.09.29-17.48.53:140][402]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.09.29-17.48.53:148][402]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.09.29-17.48.53:155][402]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2023.09.29-17.48.53:158][402]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level_0/7/5N/3HX4AJ4EZ9VMVV4BAHZ6DL
+[2023.09.29-17.48.53:158][402]LogSavePackage: Moving 'D:/Unreal Projects/JameGam_2023/Saved/3HX4AJ4EZ9VMVV4BAHZ6DL71985FD84A69073AF0FBF7920EDA332E.tmp' to 'D:/Unreal Projects/JameGam_2023/Content/__ExternalActors__/Level_0/7/5N/3HX4AJ4EZ9VMVV4BAHZ6DL.uasset'
+[2023.09.29-17.48.53:172][402]LogFileHelpers: InternalPromptForCheckoutAndSave took 125 ms (total: 1.30 sec)
+[2023.09.29-17.48.53:177][402]AssetCheck: New page: Asset Save: StaticMeshActor_UAID_9C2DCD4CEDDEEFAD01_1379099913
+[2023.09.29-17.48.53:177][402]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Level_0.Level_0:PersistentLevel.StaticMeshActor_UAID_9C2DCD4CEDDEEFAD01_1379099913
+[2023.09.29-17.48.53:186][402]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
